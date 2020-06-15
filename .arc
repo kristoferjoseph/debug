@@ -5,6 +5,7 @@ begin-app
 get /
 get /more
 get /things
+get /stuff
 
 @tables
 data
