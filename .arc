@@ -6,6 +6,7 @@ get /
 get /more
 get /things
 get /stuff
+get /fail
 
 @tables
 data
