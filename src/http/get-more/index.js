@@ -2,7 +2,7 @@ let body = `
 More
 `
 
-export async function handler (req: object) {
+export async function handler (req) {
   return {
     headers: {
       'content-type': 'text/html; charset=utf8',
