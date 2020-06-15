@@ -2,7 +2,8 @@ let body = `
 Fail
 `
 
-export async function handler (req) {
+export async function handler (req: object) {
+  console.log(req)
   return {
     headers: {
       'content-type': 'text/html; charset=utf8',
@@ -11,4 +12,3 @@ export async function handler (req) {
     body
   }
 }
-
