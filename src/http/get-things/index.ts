@@ -1,5 +1,5 @@
 let body = `
-Main
+Things
 `
 
 export async function handler (req: object) {
@@ -11,3 +11,4 @@ export async function handler (req: object) {
     body
   }
 }
+

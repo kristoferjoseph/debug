@@ -1,0 +1,3 @@
+@aws
+runtime deno
+
